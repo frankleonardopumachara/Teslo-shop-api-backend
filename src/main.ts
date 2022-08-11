@@ -15,7 +15,7 @@ async function bootstrap() {
     forbidNonWhitelisted: true
   }));
 
-  app.enableCors()
+  app.enableCors({credentials: false})
 
   await app.listen(config.get<number>("SERVER_PORT"));
 }
