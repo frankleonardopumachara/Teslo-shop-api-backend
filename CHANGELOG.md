@@ -7,13 +7,12 @@ y este proyecto se adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.
 
 ## [Unreleased]
 
-## [0.1.0] - 2017-06-20
+## [0.1.0] - 2022-08-11
 ### Added
-- New visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
-- Version navigation.
+- Modulo de foto, base de datos, productos, usuarios.
+- Docker-compose para el despliegue.
 
 ### Changed
-- Start using "changelog" over "change log" since it's the common usage.
 - Start versioning based on the current English version at 0.3.0 to help
   translation authors keep things up-to-date.
 - Rewrite "What makes unicorns cry?" section.
